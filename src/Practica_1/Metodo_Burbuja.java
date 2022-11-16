@@ -8,9 +8,9 @@ public class Metodo_Burbuja {
 
         //Elaborar un programa que ordene en forma ascendente un vector de 10 elementos y mostrarlo en pantalla. (método burbuja)
 
-        int vector[]=new int [10];
+        int[] vector =new int [10];
         Scanner entrada=new Scanner(System.in);
-        int aux=0,pos, pas, i;
+        int aux,pos, pas, i;
 
         for(i=0;i<10;i++){
             System.out.println("INGRESE UN NUMERO: ");
